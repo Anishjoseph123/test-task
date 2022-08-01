@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.form{
+    background-color: #ccc;
+    height: 50vh;
+    width: 100vh;
+    margin-top: 10px;
+}
+select{
+    margin-left: 47px;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #ccc;
+}
+span{
+    color:red;
+}
+#date{
+    width: 140px;
+    height: 25px;
+    border-radius: 5px;
+    margin-left: 113px;
+    background-color: #ccc;
+}
+#amount{
+width: 400px;
+height: 25px;
+border-radius: 5px;
+margin-left: 92px;
+margin-top: 5px;
+background-color: #ccc;
+}
+#remarks{
+    margin-left: 94px;
+    border-radius: 5px;
+    width: 400px;
+    height: 25px;
+    margin-top: 5px;
+    background-color: #ccc;
+}
+#can{
+    margin-left: 210px;
+    margin-top: 20px;
+    height: 60px;
+    width: 20%;
+    background-color: #fff;
+    border: 1px solid crimson;
+    opacity: 0.5;
+    color: crimson;
+    text-transform: uppercase;
+    font-weight:bold;
+    border-radius: 4px;
+    padding-bottom: 15px;
+}
+#sub{
+    margin-top: 20px;
+    height: 60px;
+    width: 20%;
+    color: #fff;
+    background-color: darkgreen;
+    text-transform: uppercase;
+    border: transparent;
+    border-radius: 4px;
+    opacity: 0.7;
+    padding-bottom: 15px;
+    font-weight: bold;
+    margin-left: 48px;
+}
