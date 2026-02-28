@@ -1,28 +1,34 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <v-app>
+      <!-- <router-view/> -->
+      <!-- <RupeeText/> -->
+      <!-- <HyphenSingle/> -->
+      <!-- <AmountToWord/> -->
+      <!-- <RadioOneUI/> -->
+      <!-- <SignIn/> -->
+      <!-- <WebCam /> -->
+      <FormDetailjson />
+    </v-app>
   </div>
 </template>
-
+<style></style>
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import FormDetailjson from "./components/FormDetailjson.vue";
+// import SignIn from '@/views/Auth Components/SignIn.vue'
+// import RadioOneUI from './components/RadioOneUI.vue';
+// import RupeeText from './components/RupeeText.vue'
+// import HyphenSingle from './components/HyphenSingle.vue';
+// import AmountToWord from './components/AmountToWord.vue';
+// import WebCam from "./components/WebCam.vue";
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    // RupeeText
+    // HyphenSingle
+    // AmountToWord
+    // SignIn
+    // WebCam,
+    FormDetailjson,
+  },
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
